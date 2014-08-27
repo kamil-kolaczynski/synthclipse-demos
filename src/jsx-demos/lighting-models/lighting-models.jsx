@@ -1,3 +1,15 @@
+/**
+ * This example demonstrates 6 common lighting models:
+ *  - Phong/Blinn-Phong
+ *  - Cook-Torrance
+ *  - Oren-Nayar
+ *  - Strauss
+ *  - Ward
+ *  - Ashikhmin-Shirley
+ *  
+ *  It is based on examples from
+ *  http://content.gpwiki.org/D3DBook:Lighting
+ */
 "use strict";
 
 var renderable = {};
