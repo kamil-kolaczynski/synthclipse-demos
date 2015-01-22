@@ -115,7 +115,7 @@ float raymarchShadow(vec2 startPos, vec3 dir) {
 
 	float currHeight = 0.0;
 	float stepSize = 1.0 / float(numSteps);
-	uint stepIndex = 0;
+	int stepIndex = 0;
 
 	vec2 texCurrentOffset = startPos;
 	vec2 texOffsetPerStep = stepSize * parallaxOffset;
