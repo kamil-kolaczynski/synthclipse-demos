@@ -38,7 +38,7 @@ mat3 computeTangentSpaceMatrix() {
 
 	// Formula from:
 	// http://content.gpwiki.org/D3DBook:(Lighting)_Per-Pixel_Lighting#Moving_From_Per-Vertex_To_Per-Pixel
-	float fraction = 1.0f / (P.x * Q.y - Q.x * P.y);
+	float fraction = 1.0 / (P.x * Q.y - Q.x * P.y);
 	vec3 normal = normalize(cross(A, B));
 
 	vec3 tangent = vec3(
